@@ -33,7 +33,7 @@ const HowItWorksSection = () => {
               Make payments, transfers, and more in 3 simple steps
             </h2>
           </div>
-          <button className="mt-6 md:mt-0 px-6 py-3 bg-indigo-600 text-white font-medium rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+          <button className="mt-6 md:mt-0 px-6 py-3 bg-[#2E68FD] text-white font-medium  shadow-md rounded-full focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
             Get Started Now
           </button>
         </div>
