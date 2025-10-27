@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import HowItWorksSection from "@/components/HowItWorksSection";
 import Marquee from "@/components/marquee";
 import PricingDM from "@/components/PricingDM";
+import TestimonialSlider from "@/components/TestimonialSlider";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Marquee></Marquee>
       <HowItWorksSection></HowItWorksSection>
       <PricingDM></PricingDM>
+      <TestimonialSlider></TestimonialSlider>
     </div>
   );
 }

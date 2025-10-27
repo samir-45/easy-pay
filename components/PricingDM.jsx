@@ -129,7 +129,7 @@ export default function PricingDM() {
     if (!mounted) {
         return null;
     }
-    return <div className="not-prose relative flex w-full flex-col gap-16 overflow-hidden px-4 py-16 text-center sm:px-8">
+    return <div className="not-prose relative flex w-full flex-col gap-16 overflow-hidden  py-16 text-center">
 
         <div className="flex flex-col items-center justify-center gap-8">
             { }
@@ -164,7 +164,7 @@ export default function PricingDM() {
             </motion.div>
 
             { }
-            <div className="mt-8 grid w-full max-w-6xl grid-cols-1 gap-6 md:grid-cols-3">
+            <div className="mt-8 grid w-full px-5 lg:px-8 max-w-7xl grid-cols-1 gap-6 md:grid-cols-3">
                 {plans.map((plan, index) => <motion.div key={plan.id} initial={{
                     opacity: 0,
                     y: 20
