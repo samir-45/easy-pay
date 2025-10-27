@@ -2,7 +2,7 @@ import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import HowItWorksSection from "@/components/HowItWorksSection";
 import Marquee from "@/components/marquee";
-import Image from "next/image";
+import PricingDM from "@/components/PricingDM";
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
       <Features></Features>
       <Marquee></Marquee>
       <HowItWorksSection></HowItWorksSection>
+      <PricingDM></PricingDM>
     </div>
   );
 }
